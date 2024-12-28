@@ -30,6 +30,8 @@
 
                 // Resposta automática do "bot"
                 chatBox.innerHTML += `<div class="message bot-message">Obrigado pela sua mensagem! Entraremos em contato em breve.</div>`;
+                chatBox.innerHTML += `<div class="message bot-message">Iremos analisar seus dados!</div>`;
+               
 
                 
 

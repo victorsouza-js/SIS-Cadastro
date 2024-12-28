@@ -6,12 +6,13 @@
 }
 
 body {
-    background-color: #0e0d21;
+    background: url(https://wallpapers.com/images/hd/phone-and-keyboard-contact-us-zqijzrhhat5ee4in.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .contact-container {
     width: 600px;
-    background-color: white;
+    background-color: #ffffff97;
     gap: 20px;
     padding: 30px;
     border-radius: 10px;
@@ -43,7 +44,7 @@ body {
     height: 640px;
     margin-left: 10vh;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff97;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
