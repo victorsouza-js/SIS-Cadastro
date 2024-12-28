@@ -22,4 +22,12 @@ Route::get('/contato', function () {
     return view('pages/contato');
 });
 
+Route::get('/sobre', function () {
+    return view('pages/sobre');
+});
+
+Route::get('/ajuda', function () {
+    return view('pages/ajuda');
+});
+
 

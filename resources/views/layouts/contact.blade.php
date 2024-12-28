@@ -7,24 +7,31 @@
     <link rel="stylesheet" href="{{asset('css/contato.css')}}">
 </head>
 <body>
+
+
     <main>
         @yield('content')
     </main>
 
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script>
         function sendMessage() {
             const userInput = document.getElementById('userInput');
+            const userEmail = document.getElementById('userEmail');
+            const userName = document.getElementById('userName');
             const chatBox = document.getElementById('chatBox');
             const message = userInput.value.trim();
 
             if (message) {
                 // Adiciona mensagem do usuário
                 chatBox.innerHTML += `<div class="message user-message">${message}</div>`;
+                chatBox.innerHTML += `<div class="message user-message">E-mail: ${userEmail.value}</div>`;
+                chatBox.innerHTML += `<div class="message user-message">Nome: ${userName.value}</div>`;
 
                 // Resposta automática do "bot"
                 chatBox.innerHTML += `<div class="message bot-message">Obrigado pela sua mensagem! Entraremos em contato em breve.</div>`;
+
+                
 
                 // Limpa o input
                 userInput.value = '';
@@ -32,6 +39,8 @@
             }
         }
     </script>
+
+    
     
 </body>
 </html>

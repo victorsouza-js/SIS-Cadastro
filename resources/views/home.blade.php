@@ -11,8 +11,8 @@
     <ul>
         <li><a href="/login">Login</a></li>
         <li><a href="/contato">Contato</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Ajuda</a></li>
+        <li><a href="/sobre">Sobre</a></li>
+        <li><a href="/ajuda">Ajuda</a></li>
     </ul>
 </nav>
 
