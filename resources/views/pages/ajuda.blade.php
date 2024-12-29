@@ -25,7 +25,19 @@
       <h2>Fale com Suporte</h2>
       <p>Entre em contato por e-mail ou pelo chat ao vivo disponível no canto inferior direito da tela.</p>
     </div>
+
+   <lottie-player
+        src="{{ asset('animations/help.json') }}"
+        background="transparent"
+        speed="0.7"
+        style="width: 600px; height: 600px; margin-left: 25vh;"
+        loop
+        autoplay>
+    </lottie-player>
+
   </div>
+
+  
 
 
 @endsection
